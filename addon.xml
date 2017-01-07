@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.example"
-version="2.1.0"
-name="Example Kodi Video Plugin"
-provider-name="Roman_V_M">
+<addon id="plugin.video.ndtv"
+version="1.0.0"
+name="NDTV"
+provider-name="aviraldg">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
 </requires>
@@ -10,16 +10,11 @@ provider-name="Roman_V_M">
   <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en">Example Kodi Video Plugin</summary>
-  <description lang="en">An example video plugin for Kodi mediacenter.</description>
-  <disclaimer lang="en">Free sample videos are provided by www.vidsplay.com.</disclaimer>
+  <summary lang="en">NDTV Plugin</summary>
+  <description lang="en">Live streams of NDTV channels: NDTV 24×7 and Prime.</description>
   <assets>
     <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-    <screenshot>resources\screenshot-01.jpg</screenshot>
-    <screenshot>resources\screenshot-02.jpg</screenshot>
-    <screenshot>resources\screenshot-03.jpg</screenshot>    
+    <fanart>fanart.jpg</fanart>  
   </assets>
-  <news>Updated with latest artwork metadata</news>
 </extension>
 </addon>
